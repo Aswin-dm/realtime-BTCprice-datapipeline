@@ -1,0 +1,27 @@
+[2026-01-30T14:44:19.891+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-30T14:44:19.937+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: 05_bitcoin_pipeline.fetch_and_store_btc manual__2026-01-30T14:44:14.402537+00:00 [queued]>
+[2026-01-30T14:44:19.950+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: 05_bitcoin_pipeline.fetch_and_store_btc manual__2026-01-30T14:44:14.402537+00:00 [queued]>
+[2026-01-30T14:44:19.951+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2026-01-30T14:44:19.970+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_and_store_btc> on 2026-01-30 14:44:14.402537+00:00
+[2026-01-30T14:44:19.983+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', '05_bitcoin_pipeline', 'fetch_and_store_btc', 'manual__2026-01-30T14:44:14.402537+00:00', '--job-id', '288', '--raw', '--subdir', 'DAGS_FOLDER/dags.py', '--cfg-path', '/tmp/tmp5thjcchz']
+[2026-01-30T14:44:19.989+0000] {standard_task_runner.py:91} INFO - Job 288: Subtask fetch_and_store_btc
+[2026-01-30T14:44:19.993+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1225) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-30T14:44:19.994+0000] {standard_task_runner.py:63} INFO - Started process 1227 to run task
+[2026-01-30T14:44:20.073+0000] {task_command.py:426} INFO - Running <TaskInstance: 05_bitcoin_pipeline.fetch_and_store_btc manual__2026-01-30T14:44:14.402537+00:00 [running]> on host 059e500630d3
+[2026-01-30T14:44:20.215+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='05_bitcoin_pipeline' AIRFLOW_CTX_TASK_ID='fetch_and_store_btc' AIRFLOW_CTX_EXECUTION_DATE='2026-01-30T14:44:14.402537+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-01-30T14:44:14.402537+00:00'
+[2026-01-30T14:44:20.220+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-30T14:44:20.222+0000] {dags.py:26} INFO - Fetching data for btc-bitcoin...
+[2026-01-30T14:44:20.507+0000] {dags.py:37} INFO - Price: $83273.08757935147, Volume: 69075721782.8188
+[2026-01-30T14:44:20.524+0000] {base.py:84} INFO - Using connection ID 'crypto_db' for task execution.
+[2026-01-30T14:44:20.532+0000] {sql.py:470} INFO - Running statement: 
+        INSERT INTO bitcoin_realtime (symbol, price_usd, volume_24h, market_cap, fetched_at)
+        VALUES (%s, %s, %s, %s, NOW());
+    , parameters: ('BTC', 83273.08757935147, 69075721782.8188, 1663991731772)
+[2026-01-30T14:44:20.535+0000] {sql.py:479} INFO - Rows affected: 1
+[2026-01-30T14:44:20.537+0000] {dags.py:49} INFO - Data successfully inserted into Postgres!
+[2026-01-30T14:44:20.539+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-01-30T14:44:20.541+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-30T14:44:20.556+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=05_bitcoin_pipeline, task_id=fetch_and_store_btc, run_id=manual__2026-01-30T14:44:14.402537+00:00, execution_date=20260130T144414, start_date=20260130T144419, end_date=20260130T144420
+[2026-01-30T14:44:20.612+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-01-30T14:44:20.636+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-30T14:44:20.639+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,478 @@
+[2026-01-14T07:54:47.112+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:54:47.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:54:47.115+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:54:47.115+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:54:47.147+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:54:47.305+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:54:47.305+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:54:47.394+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:54:47.394+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2025-12-29 15:00:00+00:00, run_after=2025-12-29 16:00:00+00:00
+[2026-01-14T07:54:47.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.364 seconds
+[2026-01-14T07:55:17.797+0000] {processor.py:161} INFO - Started process (PID=514) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:55:17.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:55:17.802+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:17.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:17.830+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:17.862+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:17.862+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:55:17.903+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:17.903+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2025-12-30 03:00:00+00:00, run_after=2025-12-30 04:00:00+00:00
+[2026-01-14T07:55:17.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.155 seconds
+[2026-01-14T07:55:48.164+0000] {processor.py:161} INFO - Started process (PID=781) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:55:48.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:55:48.169+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:48.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:48.201+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:48.239+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:48.238+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:55:48.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.165 seconds
+[2026-01-14T07:55:52.218+0000] {processor.py:161} INFO - Started process (PID=831) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:55:52.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:55:52.222+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:52.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:52.272+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:52.477+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:52.476+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:55:52.554+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.344 seconds
+[2026-01-14T07:55:54.062+0000] {processor.py:161} INFO - Started process (PID=866) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:55:54.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:55:54.069+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:54.068+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:54.113+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:54.137+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:54.136+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:55:54.209+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.168 seconds
+[2026-01-14T07:55:56.118+0000] {processor.py:161} INFO - Started process (PID=914) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:55:56.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:55:56.122+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:56.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:56.173+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:56.196+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:56.195+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:55:56.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.161 seconds
+[2026-01-14T07:55:57.553+0000] {processor.py:161} INFO - Started process (PID=989) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:55:57.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:55:57.557+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:57.556+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:57.603+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:55:57.622+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:55:57.622+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:55:57.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.150 seconds
+[2026-01-14T07:56:01.505+0000] {processor.py:161} INFO - Started process (PID=1062) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:56:01.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:56:01.511+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:56:01.510+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:56:01.558+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:56:01.581+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:56:01.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:56:01.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.164 seconds
+[2026-01-14T07:56:05.709+0000] {processor.py:161} INFO - Started process (PID=1067) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:56:05.711+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:56:05.714+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:56:05.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:56:05.762+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:56:05.785+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:56:05.785+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:56:05.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.177 seconds
+[2026-01-14T07:56:36.392+0000] {processor.py:161} INFO - Started process (PID=1328) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:56:36.393+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:56:36.396+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:56:36.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:56:36.423+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:56:36.604+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:56:36.604+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:56:36.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.289 seconds
+[2026-01-14T07:57:07.385+0000] {processor.py:161} INFO - Started process (PID=1595) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:57:07.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:57:07.390+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:57:07.389+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:57:07.417+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:57:07.452+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:57:07.451+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:57:07.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.140 seconds
+[2026-01-14T07:57:38.121+0000] {processor.py:161} INFO - Started process (PID=1898) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:57:38.123+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:57:38.126+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:57:38.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:57:38.162+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:57:38.200+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:57:38.200+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:57:38.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.175 seconds
+[2026-01-14T07:58:44.596+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:58:44.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:58:44.628+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:58:44.627+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:58:44.706+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:58:44.793+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:58:44.793+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:58:44.857+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.271 seconds
+[2026-01-14T07:59:15.094+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:59:15.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:59:15.101+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:59:15.100+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:59:15.137+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:59:15.187+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:59:15.186+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:59:15.253+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.172 seconds
+[2026-01-14T07:59:45.337+0000] {processor.py:161} INFO - Started process (PID=764) to work on /opt/airflow/dags/dags.py
+[2026-01-14T07:59:45.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T07:59:45.341+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:59:45.341+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T07:59:45.373+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T07:59:45.411+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:59:45.411+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T07:59:45.453+0000] {logging_mixin.py:188} INFO - [2026-01-14T07:59:45.452+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 07:00:00+00:00, run_after=2026-01-14 08:00:00+00:00
+[2026-01-14T07:59:45.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.165 seconds
+[2026-01-14T08:00:16.336+0000] {processor.py:161} INFO - Started process (PID=1030) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:00:16.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:00:16.341+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:00:16.340+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:00:16.377+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:00:16.413+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:00:16.412+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:00:16.455+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:00:16.455+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:00:16.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.161 seconds
+[2026-01-14T08:00:46.833+0000] {processor.py:161} INFO - Started process (PID=1291) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:00:46.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:00:46.837+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:00:46.837+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:00:46.868+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:00:46.906+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:00:46.906+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:00:46.950+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:00:46.949+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:00:46.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.158 seconds
+[2026-01-14T08:01:17.270+0000] {processor.py:161} INFO - Started process (PID=1555) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:01:17.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:01:17.275+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:01:17.274+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:01:17.305+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:01:17.342+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:01:17.342+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:01:17.380+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:01:17.380+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:01:17.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.156 seconds
+[2026-01-14T08:01:47.736+0000] {processor.py:161} INFO - Started process (PID=1840) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:01:47.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:01:47.741+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:01:47.741+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:01:47.774+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:01:47.812+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:01:47.812+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:01:47.856+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:01:47.855+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:01:47.889+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.164 seconds
+[2026-01-14T08:02:17.978+0000] {processor.py:161} INFO - Started process (PID=2104) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:02:17.980+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:02:17.984+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:02:17.984+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:02:18.016+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:02:18.054+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:02:18.053+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:02:18.088+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:02:18.088+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:02:18.120+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.151 seconds
+[2026-01-14T08:02:48.564+0000] {processor.py:161} INFO - Started process (PID=2365) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:02:48.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:02:48.568+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:02:48.567+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:02:48.600+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:02:48.636+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:02:48.636+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:02:48.677+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:02:48.677+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:02:48.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.158 seconds
+[2026-01-14T08:03:18.880+0000] {processor.py:161} INFO - Started process (PID=2629) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:03:18.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:03:18.884+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:03:18.884+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:03:18.914+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:03:18.947+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:03:18.947+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:03:18.985+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:03:18.984+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:03:19.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.150 seconds
+[2026-01-14T08:03:49.282+0000] {processor.py:161} INFO - Started process (PID=2914) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:03:49.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:03:49.287+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:03:49.287+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:03:49.318+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:03:49.352+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:03:49.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:03:49.390+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:03:49.390+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:03:49.425+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.153 seconds
+[2026-01-14T08:04:19.836+0000] {processor.py:161} INFO - Started process (PID=3178) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:04:19.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:04:19.841+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:04:19.839+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:04:19.870+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:04:19.904+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:04:19.903+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:04:19.944+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:04:19.943+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:04:19.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.152 seconds
+[2026-01-14T08:04:50.291+0000] {processor.py:161} INFO - Started process (PID=3439) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:04:50.292+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:04:50.295+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:04:50.294+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:04:50.322+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:04:50.354+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:04:50.354+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:04:50.394+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:04:50.393+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:04:50.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.139 seconds
+[2026-01-14T08:06:44.791+0000] {processor.py:161} INFO - Started process (PID=3695) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:06:44.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:06:44.808+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:06:44.806+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:06:44.915+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:06:44.989+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:06:44.980+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:06:45.088+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:06:45.087+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:06:45.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.393 seconds
+[2026-01-14T08:07:15.262+0000] {processor.py:161} INFO - Started process (PID=3958) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:07:15.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:07:15.266+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:07:15.265+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:07:15.300+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:07:15.331+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:07:15.331+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:07:15.383+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:07:15.382+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:07:15.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.167 seconds
+[2026-01-14T08:07:46.057+0000] {processor.py:161} INFO - Started process (PID=4219) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:07:46.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:07:46.063+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:07:46.062+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:07:46.096+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:07:46.133+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:07:46.133+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:07:46.178+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:07:46.178+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:07:46.213+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.167 seconds
+[2026-01-14T08:08:16.960+0000] {processor.py:161} INFO - Started process (PID=4480) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:08:16.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:08:16.964+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:08:16.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:08:16.993+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:08:17.028+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:08:17.027+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:08:17.070+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:08:17.069+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:08:17.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.154 seconds
+[2026-01-14T08:08:47.373+0000] {processor.py:161} INFO - Started process (PID=4741) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:08:47.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:08:47.378+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:08:47.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:08:47.412+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:08:47.447+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:08:47.446+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:08:47.486+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:08:47.486+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:08:47.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.160 seconds
+[2026-01-14T08:09:18.145+0000] {processor.py:161} INFO - Started process (PID=5002) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:09:18.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:09:18.149+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:09:18.148+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:09:18.171+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:09:18.199+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:09:18.198+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:09:18.232+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:09:18.231+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:09:18.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.119 seconds
+[2026-01-14T08:09:48.589+0000] {processor.py:161} INFO - Started process (PID=5263) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:09:48.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:09:48.592+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:09:48.592+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:09:48.612+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:09:48.637+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:09:48.637+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:09:48.663+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:09:48.663+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:09:48.693+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.110 seconds
+[2026-01-14T08:10:18.858+0000] {processor.py:161} INFO - Started process (PID=5524) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:10:18.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:10:18.860+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:10:18.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:10:18.879+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:10:18.901+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:10:18.901+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:10:18.926+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:10:18.926+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:10:18.949+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.097 seconds
+[2026-01-14T08:10:49.084+0000] {processor.py:161} INFO - Started process (PID=5785) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:10:49.085+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:10:49.088+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:10:49.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:10:49.111+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:10:49.137+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:10:49.136+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:10:49.167+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:10:49.167+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:10:49.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.118 seconds
+[2026-01-14T08:11:19.644+0000] {processor.py:161} INFO - Started process (PID=6046) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:11:19.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:11:19.647+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:11:19.647+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:11:19.667+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:11:19.691+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:11:19.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:11:19.719+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:11:19.719+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:11:19.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.110 seconds
+[2026-01-14T08:11:49.891+0000] {processor.py:161} INFO - Started process (PID=6307) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:11:49.892+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:11:49.894+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:11:49.893+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:11:49.918+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:11:49.942+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:11:49.941+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:11:49.972+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:11:49.971+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:11:49.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.109 seconds
+[2026-01-14T08:12:20.783+0000] {processor.py:161} INFO - Started process (PID=6568) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:12:20.784+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:12:20.786+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:12:20.786+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:12:20.807+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:12:20.829+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:12:20.828+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:12:20.856+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:12:20.855+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:12:20.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.103 seconds
+[2026-01-14T08:12:51.603+0000] {processor.py:161} INFO - Started process (PID=6829) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:12:51.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:12:51.607+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:12:51.606+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:12:51.630+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:12:51.656+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:12:51.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:12:51.688+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:12:51.688+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:12:51.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.118 seconds
+[2026-01-14T08:13:22.054+0000] {processor.py:161} INFO - Started process (PID=7090) to work on /opt/airflow/dags/dags.py
+[2026-01-14T08:13:22.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T08:13:22.058+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:13:22.058+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T08:13:22.080+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T08:13:22.107+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:13:22.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T08:13:22.133+0000] {logging_mixin.py:188} INFO - [2026-01-14T08:13:22.133+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T08:13:22.156+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.109 seconds
+[2026-01-14T09:27:35.977+0000] {processor.py:161} INFO - Started process (PID=7349) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:27:35.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:27:35.982+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:27:35.980+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:27:36.009+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:27:36.048+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:27:36.048+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:27:36.087+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:27:36.087+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:27:36.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.153 seconds
+[2026-01-14T09:28:06.877+0000] {processor.py:161} INFO - Started process (PID=7604) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:28:06.878+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:28:06.880+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:28:06.879+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:28:06.902+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:28:06.928+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:28:06.928+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:28:06.957+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:28:06.957+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:28:06.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.114 seconds
+[2026-01-14T09:28:37.321+0000] {processor.py:161} INFO - Started process (PID=7865) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:28:37.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:28:37.325+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:28:37.324+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:28:37.348+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:28:37.376+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:28:37.375+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:28:37.408+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:28:37.407+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:28:37.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.120 seconds
+[2026-01-14T09:29:07.923+0000] {processor.py:161} INFO - Started process (PID=8126) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:29:07.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:29:07.926+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:29:07.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:29:07.950+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:29:07.975+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:29:07.975+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:29:08.004+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:29:08.004+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:29:08.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.114 seconds
+[2026-01-14T09:29:38.374+0000] {processor.py:161} INFO - Started process (PID=8387) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:29:38.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:29:38.377+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:29:38.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:29:38.403+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:29:38.433+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:29:38.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:29:38.469+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:29:38.468+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:29:38.501+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.135 seconds
+[2026-01-14T09:30:08.826+0000] {processor.py:161} INFO - Started process (PID=8648) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:30:08.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:30:08.831+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:30:08.830+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:30:08.863+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:30:08.895+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:30:08.895+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:30:08.929+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:30:08.929+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:30:08.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.147 seconds
+[2026-01-14T09:30:39.600+0000] {processor.py:161} INFO - Started process (PID=8909) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:30:39.602+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:30:39.605+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:30:39.604+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:30:39.641+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:30:39.677+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:30:39.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:30:39.712+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:30:39.712+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:30:39.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.157 seconds
+[2026-01-14T09:31:23.614+0000] {processor.py:161} INFO - Started process (PID=9170) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:31:23.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:31:23.618+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:31:23.618+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:31:23.649+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:31:23.682+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:31:23.681+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:31:23.718+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:31:23.718+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:31:23.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.146 seconds
+[2026-01-14T09:31:54.215+0000] {processor.py:161} INFO - Started process (PID=9431) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:31:54.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:31:54.220+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:31:54.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:31:54.254+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:31:54.294+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:31:54.293+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:31:54.339+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:31:54.338+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:31:54.375+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.171 seconds
+[2026-01-14T09:32:24.931+0000] {processor.py:161} INFO - Started process (PID=9692) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:32:24.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:32:24.936+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:32:24.935+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:32:24.970+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:32:25.005+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:32:25.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:32:25.302+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:32:25.302+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:32:25.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.417 seconds
+[2026-01-14T09:32:55.751+0000] {processor.py:161} INFO - Started process (PID=9953) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:32:55.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:32:55.756+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:32:55.755+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:32:55.794+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:32:55.831+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:32:55.831+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:32:56.065+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:32:56.065+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:32:56.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.359 seconds
+[2026-01-14T09:33:26.627+0000] {processor.py:161} INFO - Started process (PID=10214) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:33:26.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:33:26.633+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:33:26.632+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:33:26.663+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:33:26.703+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:33:26.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:33:26.742+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:33:26.742+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:33:26.778+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.163 seconds
+[2026-01-14T09:33:57.362+0000] {processor.py:161} INFO - Started process (PID=10475) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:33:57.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:33:57.367+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:33:57.366+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:33:57.398+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:33:57.434+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:33:57.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:33:57.477+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:33:57.477+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:33:57.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.162 seconds
+[2026-01-14T09:34:27.855+0000] {processor.py:161} INFO - Started process (PID=10736) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:34:27.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:34:27.860+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:34:27.859+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:34:27.890+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:34:27.925+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:34:27.924+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:34:27.968+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:34:27.967+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:34:28.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.158 seconds
+[2026-01-14T09:34:58.434+0000] {processor.py:161} INFO - Started process (PID=10997) to work on /opt/airflow/dags/dags.py
+[2026-01-14T09:34:58.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T09:34:58.438+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:34:58.438+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T09:34:58.469+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T09:34:58.512+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:34:58.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T09:34:58.568+0000] {logging_mixin.py:188} INFO - [2026-01-14T09:34:58.568+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T09:34:58.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.185 seconds
+[2026-01-14T10:03:19.187+0000] {processor.py:161} INFO - Started process (PID=11258) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:03:19.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:03:19.191+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:03:19.190+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:03:19.222+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:03:19.256+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:03:19.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:03:19.303+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:03:19.302+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:03:19.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.160 seconds
+[2026-01-14T10:03:49.851+0000] {processor.py:161} INFO - Started process (PID=11519) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:03:49.854+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:03:49.859+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:03:49.857+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:03:49.892+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:03:49.932+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:03:49.932+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:03:49.976+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:03:49.976+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:03:50.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.178 seconds
+[2026-01-14T10:04:20.366+0000] {processor.py:161} INFO - Started process (PID=11780) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:04:20.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:04:20.370+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:04:20.369+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:04:20.398+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:04:20.429+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:04:20.428+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:04:20.466+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:04:20.466+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:04:20.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.143 seconds
+[2026-01-14T10:04:50.922+0000] {processor.py:161} INFO - Started process (PID=12041) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:04:50.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:04:50.926+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:04:50.926+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:04:50.956+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:04:50.989+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:04:50.989+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:04:51.031+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:04:51.031+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:04:51.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.152 seconds
+[2026-01-14T10:05:21.522+0000] {processor.py:161} INFO - Started process (PID=12302) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:05:21.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:05:21.526+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:05:21.526+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:05:21.560+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:05:21.595+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:05:21.595+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:05:21.635+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:05:21.634+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:05:21.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.157 seconds
+[2026-01-14T10:05:52.179+0000] {processor.py:161} INFO - Started process (PID=12563) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:05:52.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:05:52.184+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:05:52.183+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:05:52.215+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:05:52.248+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:05:52.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:05:52.285+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:05:52.285+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:05:52.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.150 seconds
+[2026-01-14T10:06:22.814+0000] {processor.py:161} INFO - Started process (PID=12824) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:06:22.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:06:22.819+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:06:22.818+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:06:22.851+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:06:22.884+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:06:22.883+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:06:22.919+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:06:22.919+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:06:22.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.148 seconds
+[2026-01-14T10:06:53.368+0000] {processor.py:161} INFO - Started process (PID=13085) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:06:53.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:06:53.372+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:06:53.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:06:53.401+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:06:53.437+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:06:53.436+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:06:53.478+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:06:53.478+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:06:53.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.158 seconds
+[2026-01-14T10:07:23.968+0000] {processor.py:161} INFO - Started process (PID=13346) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:07:23.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:07:23.974+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:07:23.973+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:07:24.006+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:07:24.040+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:07:24.040+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:07:24.082+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:07:24.082+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:07:24.115+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.160 seconds
+[2026-01-14T10:07:54.301+0000] {processor.py:161} INFO - Started process (PID=13607) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:07:54.303+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:07:54.306+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:07:54.306+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:07:54.338+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:07:54.376+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:07:54.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:07:54.419+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:07:54.419+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:07:54.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.167 seconds
+[2026-01-14T10:08:25.066+0000] {processor.py:161} INFO - Started process (PID=13868) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:08:25.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:08:25.071+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:08:25.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:08:25.103+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:08:25.139+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:08:25.139+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:08:25.176+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:08:25.176+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:08:25.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.166 seconds
+[2026-01-14T10:08:55.798+0000] {processor.py:161} INFO - Started process (PID=14129) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:08:55.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:08:55.802+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:08:55.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:08:55.833+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:08:55.865+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:08:55.864+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:08:55.904+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:08:55.904+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:08:55.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.156 seconds
+[2026-01-14T10:09:26.257+0000] {processor.py:161} INFO - Started process (PID=14390) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:09:26.258+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:09:26.261+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:09:26.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:09:26.292+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:09:26.325+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:09:26.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:09:26.363+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:09:26.363+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:09:26.403+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.159 seconds
+[2026-01-14T10:09:56.650+0000] {processor.py:161} INFO - Started process (PID=14651) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:09:56.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:09:56.655+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:09:56.654+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:09:56.685+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:09:56.718+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:09:56.717+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:09:56.754+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:09:56.753+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:09:56.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.147 seconds
+[2026-01-14T10:10:27.128+0000] {processor.py:161} INFO - Started process (PID=14912) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:10:27.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:10:27.133+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:10:27.133+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:10:27.160+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:10:27.192+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:10:27.192+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:10:27.230+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:10:27.230+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:10:27.262+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.146 seconds
+[2026-01-14T10:29:59.828+0000] {processor.py:161} INFO - Started process (PID=15132) to work on /opt/airflow/dags/dags.py
+[2026-01-14T10:29:59.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dags.py for tasks to queue
+[2026-01-14T10:29:59.834+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:29:59.833+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dags.py
+[2026-01-14T10:29:59.954+0000] {processor.py:840} INFO - DAG(s) 'coinpaprika_public_loader' retrieved from /opt/airflow/dags/dags.py
+[2026-01-14T10:30:00.156+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:30:00.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-01-14T10:30:00.319+0000] {logging_mixin.py:188} INFO - [2026-01-14T10:30:00.316+0000] {dag.py:3954} INFO - Setting next_dagrun for coinpaprika_public_loader to 2026-01-14 08:00:00+00:00, run_after=2026-01-14 09:00:00+00:00
+[2026-01-14T10:30:00.440+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dags.py took 0.629 seconds

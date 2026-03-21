@@ -1,0 +1,76 @@
+
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_DB: crypto_db
+      POSTGRES_USER: crypto_user
+      POSTGRES_PASSWORD: crypto_pass
+    ports:
+      - "5432:5432"   
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
+
+  airflow-webserver:
+    image: apache/airflow:2.9.1
+    container_name: airflow-webserver
+    command: webserver --port 5555
+    ports:
+      - "5555:5555"
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://crypto_user:crypto_pass@postgres:5432/crypto_db
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "True"
+      _AIRFLOW_WWW_USER_USERNAME: airflow_user
+      _AIRFLOW_WWW_USER_PASSWORD: airflow_pass
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    depends_on:
+      - postgres
+
+  airflow-scheduler:
+    image: apache/airflow:2.9.1
+    container_name: airflow-scheduler
+    command: scheduler
+    environment:
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://crypto_user:crypto_pass@postgres:5432/crypto_db
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "True"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./logs:/opt/airflow/logs
+      - ./plugins:/opt/airflow/plugins
+    depends_on:
+      - postgres
+
+  frontend:
+    build: ./frontend
+    container_name: crypto-dash
+    ports:
+      - "8501:8501"
+    depends_on:
+      - postgres
+    environment:
+      - POSTGRES_USER=crypto_user
+      - POSTGRES_PASSWORD=crypto_pass
+      - POSTGRES_DB=crypto_db
+      - POSTGRES_HOST=postgres
+    volumes:
+      - ./frontend:/app
+
+volumes:
+  postgres_data:

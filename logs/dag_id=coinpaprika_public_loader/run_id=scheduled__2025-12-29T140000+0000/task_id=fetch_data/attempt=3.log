@@ -1,0 +1,39 @@
+[2026-01-14T07:58:58.140+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-01-14T07:58:58.184+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: coinpaprika_public_loader.fetch_data scheduled__2025-12-29T14:00:00+00:00 [queued]>
+[2026-01-14T07:58:58.194+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: coinpaprika_public_loader.fetch_data scheduled__2025-12-29T14:00:00+00:00 [queued]>
+[2026-01-14T07:58:58.195+0000] {taskinstance.py:2306} INFO - Starting attempt 3 of 3
+[2026-01-14T07:58:58.211+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): fetch_data> on 2025-12-29 14:00:00+00:00
+[2026-01-14T07:58:58.221+0000] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'coinpaprika_public_loader', 'fetch_data', 'scheduled__2025-12-29T14:00:00+00:00', '--job-id', '223', '--raw', '--subdir', 'DAGS_FOLDER/dags.py', '--cfg-path', '/tmp/tmp1eq_yjrt']
+[2026-01-14T07:58:58.224+0000] {standard_task_runner.py:91} INFO - Job 223: Subtask fetch_data
+[2026-01-14T07:58:58.227+0000] {logging_mixin.py:188} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=433) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-01-14T07:58:58.228+0000] {standard_task_runner.py:63} INFO - Started process 435 to run task
+[2026-01-14T07:58:58.290+0000] {task_command.py:426} INFO - Running <TaskInstance: coinpaprika_public_loader.fetch_data scheduled__2025-12-29T14:00:00+00:00 [running]> on host dfe135f03033
+[2026-01-14T07:58:58.396+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='coinpaprika_public_loader' AIRFLOW_CTX_TASK_ID='fetch_data' AIRFLOW_CTX_EXECUTION_DATE='2025-12-29T14:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-12-29T14:00:00+00:00'
+[2026-01-14T07:58:58.398+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-01-14T07:58:58.650+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-01-14T07:58:58.651+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dags.py", line 41, in fetch_coin_data
+    "ath_price": data['ath_price'],
+                 ~~~~^^^^^^^^^^^^^
+KeyError: 'ath_price'
+[2026-01-14T07:58:58.669+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=coinpaprika_public_loader, task_id=fetch_data, run_id=scheduled__2025-12-29T14:00:00+00:00, execution_date=20251229T140000, start_date=20260114T075858, end_date=20260114T075858
+[2026-01-14T07:58:58.683+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 223 for task fetch_data ('ath_price'; 435)
+[2026-01-14T07:58:58.723+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-01-14T07:58:58.753+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-01-14T07:58:58.759+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
