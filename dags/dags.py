@@ -8,8 +8,8 @@ import requests
 import logging
 
 # --- CONFIGURATION ---
-CONN_ID = 'crypto_db'  # Must match the ID you just created
-COIN_ID = 'btc-bitcoin'
+CONN_ID = '**'  # Must match the ID you just created
+COIN_ID = '**'
 API_URL = f"https://{COIN_ID}"
 
 default_args = {
