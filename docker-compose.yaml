@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: crypto_user
       POSTGRES_PASSWORD: crypto_pass
     ports:
-      - "5432:5432"   
+      - "  "   
     volumes:
       - postgres_data:/var/lib/postgresql/data
   pgadmin:
@@ -19,7 +19,7 @@ services:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: admin
     ports:
-      - "5050:80"
+      - "  "
     depends_on:
       - postgres
 
@@ -28,7 +28,7 @@ services:
     container_name: airflow-webserver
     command: webserver --port 5555
     ports:
-      - "5555:5555"
+      - "   "
     environment:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://crypto_user:crypto_pass@postgres:5432/crypto_db
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
@@ -61,7 +61,7 @@ services:
     build: ./frontend
     container_name: crypto-dash
     ports:
-      - "8501:8501"
+      - "  "
     depends_on:
       - postgres
     environment:
