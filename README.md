@@ -1,3 +1,5 @@
+<img width="2816" height="1536" alt="Gemini_Generated_Image_s55xozs55xozs55x" src="https://github.com/user-attachments/assets/3f7d620f-b72a-48f2-ad7f-8a6c164745d2" />
+
 realtime-BTCprice-datapipeline
 
 Pulls BTC/crypto price data from the Coinpaprika API on a schedule and writes it into Postgres. Airflow handles the scheduling/retries, Celery + Redis run the tasks across workers, everything runs in Docker.
